@@ -1,9 +1,11 @@
-export interface SkillsMember {
+type SkillsMember = {
     name: string;
     age: number;
     email: string;
 }
 
-export function createSkillsMember(name: string, age: number, email: string): SkillsMember {
+function createSkillsMember(name: string, age: number, email: string): SkillsMember {
+    return { name, age, email };
+}
     return { name, age, email };
 }
