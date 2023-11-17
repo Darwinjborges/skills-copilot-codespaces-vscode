@@ -1,11 +1,10 @@
-type SkillsMember = {
-    name: string;
-    age: number;
-    email: string;
+interface SkillsMember {
+    // properties and methods go here
 }
 
-function createSkillsMember(name: string, age: number, email: string): SkillsMember {
-    return { name, age, email };
-}
-    return { name, age, email };
+function createSkillsMember(): SkillsMember {
+    // implementation goes here
+    return {
+        // return object with properties and methods
+    };
 }
